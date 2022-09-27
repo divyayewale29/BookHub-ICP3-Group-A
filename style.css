@@ -1,0 +1,190 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 80px;
+    font-size: 18px;
+    background-color:gray;
+    padding: 5px;
+}
+.b{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     margin-left: 25px;
+     margin-top: 25px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.li-item{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 23px;
+    
+}
+.li-item:hover{
+    box-shadow: 1px 2px 1px 2px black;
+    height: 15px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+}
+.bt{
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(143, 137, 137, 0.848);
+    text-decoration: none;
+
+}
+.bt:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0px 2px 0px 2px  rgba(143, 137, 137, 0.848);
+    transition: 0.35s;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.d1{
+    height: 500px;
+    background-image: url(../books/images/sliderimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.d2{
+    height: 150px;
+ 
+}
+.b{
+    font-size: 30px;
+    text-align: center;
+}
+.d3{
+    height: 500px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+.img:hover{
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 1px 2px 1px 1px #e4f0fa;
+    transition: 0.3s;
+}
+.login{
+   font-size: 20px;
+   height: 600px;
+   margin-left: 350px;
+   margin-right: 350px;
+   margin-top: 50px;
+}
+.d4{
+   height: 500px;
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-box{
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top:30px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+.login-form{
+    display: inline-block;
+    padding: 25px;
+    margin-left: 50px;
+}
+label{
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+.email{
+    height: 30px;
+    width:300px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.pass{
+    height: 30px;
+    width:300px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.check{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.logbtn{
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: orangered;
+    color: white ;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.logbtn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    background-color: whitesmoke;
+    
+
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.a1:hover{
+    color: white;
+}
