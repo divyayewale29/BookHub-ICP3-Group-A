@@ -75,6 +75,7 @@ a:hover{
     font-size: 30px;
     text-align: center;
 }
+
 .d3{
     height: 500px;
     background-color: whitesmoke;
@@ -122,14 +123,19 @@ a:hover{
 
 
 
-
+.l1{
+    background-image: url('./images/loginbg.jpg');
+    height: 600px;
+    
+    
+}
 
 .form-box{
     height: 400px;
     margin-right: 100px;
     margin-left: 100px;
     margin-top:30px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid black;
 
 }
