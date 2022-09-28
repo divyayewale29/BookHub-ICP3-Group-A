@@ -62,7 +62,7 @@ a:hover{
 }
 .d1{
     height: 500px;
-    background-image: url(../BookHub-ICP3-Group-A/images/sliderimg.jpg);
+    background-image: url('./images/sliderimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -188,3 +188,95 @@ label{
 .a1:hover{
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+.b1{
+    height: 500px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    display: flex;
+   
+}
+.download{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+
+}
+.download:hover{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c1{
+    height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-image: url('./images/categorybg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.c1-1{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.c1:hover{
+    padding: 20px;
+    box-shadow: 1px 1px 8px 2px black;
+    
+}
+.c2{
+    height: 600px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.c2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.p{
+    color: blue;
+}
+.p:hover{
+    color: red;
+    cursor: pointer;
+}
+
