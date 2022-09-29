@@ -1,0 +1,135 @@
+.container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.main-card{
+    background-color: whitesmoke ;
+    height: 650px;
+    width: 900px;
+   margin-left: 220px;
+   margin-right: 200px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   box-shadow: 0px 2px 7px gray;
+}
+
+.card{
+    display: flex;
+}
+
+.card1{
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.card2{
+    border-radius: 20px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.img{
+    border-radius: 20px;
+    width: 450px;
+    height: 400px;
+    box-shadow: 0px 2px 7px gray;
+}
+
+.txt{
+    font-size: 40px;
+    font-family: courgette;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.btn{
+    height: 50px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin: 8px;
+    border: none;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+
+
+
+.submit{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(189,183,183);
+    border: 5px solid black;
+    box-shadow: 1px 1px 5px rgb(126, 117, 117);
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.submit:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+
+.bottom-card{
+    height: 120px;
+    width: 700px;
+    background-color: rgb(189, 183, 183);
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(87, 83, 83);
+}
+
+.bt-card{
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    margin: 15px;
+    margin-left: 40px;
+}
+
+.bt-txt{
+    font-size: 18px;
+    margin: 2px;
+}
+
+.text{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.image{
+    height: 35px;
+    margin: 2px;
+}
+
+.last-img{
+    margin-top: 25px;
+    height: 35px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.last-txt{
+    font-size: 18px;
+}
+
+.lbt-card{
+    color: white;
+    font-size: 15px;
+    height: 80px;
+    margin: 15px;
+    margin-left: 10px;
+}
