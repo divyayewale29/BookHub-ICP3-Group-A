@@ -97,7 +97,7 @@ a:hover{
     cursor: pointer;
     padding: 5px;
     box-shadow: 1px 2px 1px 1px #e4f0fa;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .login{
    font-size: 20px;
@@ -168,6 +168,7 @@ ul{
     color: #ffffff;
     padding-left: 10px;
     transition: 0.5s;
+    color: orange;
 }
 .f-img{
     height: 25px;
@@ -176,7 +177,10 @@ ul{
 }
 .f-img:hover{
     cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
+
 
 
 
@@ -347,6 +351,8 @@ label{
 .c1:hover{
     padding: 20px;
     box-shadow: 1px 1px 8px 2px black;
+    cursor: pointer;
+    transition: 0.35S;
     
 }
 .c2{
