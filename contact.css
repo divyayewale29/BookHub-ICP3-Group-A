@@ -7,7 +7,7 @@
 .main-card{
     background-color: whitesmoke ;
     height: 650px;
-    width: 900px;
+    width: 850px;
    margin-left: 220px;
    margin-right: 200px;
    margin-top: 100px;
@@ -21,7 +21,8 @@
 
 .card1{
     border-radius: 20px;
-    width: 400px;
+    width: 350px;
+   
     margin-top: 80px;
     margin-left: 50px;
 }
@@ -38,7 +39,7 @@
 
 .img{
     border-radius: 20px;
-    width: 450px;
+    width: 400px;
     height: 400px;
     box-shadow: 0px 2px 7px gray;
 }
@@ -72,18 +73,20 @@
     margin: 20px;
     margin-left: 150px;
     border-radius: 20px;
+    color: black;
 }
 
 .submit:hover{
-    background-color: white;
+    background-color: gray;
     transition: 0.4s;
+    color: black;
 }
 
 .bottom-card{
     height: 120px;
     width: 700px;
-    background-color: rgb(189, 183, 183);
-    margin-left: 100px;
+    background-color: rgb(170,168,168);
+    margin-left: 75px;
     margin-bottom: 30px;
     margin-top: 20px;
     display: flex;
@@ -105,7 +108,7 @@
 }
 
 .text{
-    color: whitesmoke;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
@@ -124,6 +127,7 @@
 
 .last-txt{
     font-size: 18px;
+    margin-right: 20px;
 }
 
 .lbt-card{
