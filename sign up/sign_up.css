@@ -63,18 +63,12 @@ body {
     padding-top: 8px;
     margin-bottom: 9px;
     font-weight: bold;
-    text-shadow: 6.5px 5.5px #ff0000;
+    text-shadow: 6.5px 5.5px #ccc;
     display: block;
     font-family: Roboto', sans-serif;
 
 }
 
-.lgn:hover {
-    color: #ff0000;
-    text-shadow: 6.5px 5.5px #808080;
-    transition: 0.5s;
-
-}
 
 .box {
     height: 49px;
