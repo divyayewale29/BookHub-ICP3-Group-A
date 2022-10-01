@@ -7,8 +7,7 @@
     font-size: 18px;
     background-color:gray;
     padding: 5px;
-    position: sticky;
-    top: 2px;
+    
 }
 .b{
     font-size: 40px;
@@ -132,6 +131,10 @@ a:hover{
     box-shadow: 2px 3px 2px 3px grey;
     cursor: pointer;
 }
+
+
+
+
 .f1{
     max-width:1170px;
     
@@ -269,8 +272,12 @@ label{
     margin-left: 30px;
 }
 .forgetpass:hover{
-    color:red;
+    color:blue;
     cursor: pointer;
+}
+.resetpass{
+    color: red;
+    
 }
 .resetpass:hover{
     color: blue;
@@ -366,6 +373,7 @@ label{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 450px;
 }
 
 

@@ -5,6 +5,7 @@
 
     <title>Sign up</title>
    <link rel="stylesheet" href="./sign_up.css"/>
+   <link rel="icon" href="./image/bhlogo.png"/>
 </head>
 
 <body>
@@ -18,31 +19,44 @@
             <li class="li-item"><a class="a1" href="../index.html" style="text-decoration: none;">HOME</a></li>
             <li class="li-item"><a class="a1"href="../categories.html">CATEGORIES</a></li>
             <li class="li-item"><a class="a1" href="../books.html">BOOKS</a></li>
-            <li class="li-item">CONTACT US</li>
+            <li class="li-item"><a  class="a1" href="contact.html">CONTACT US</a></li>
             <li class="li-item">ABOUT US</li>&nbsp;
             <button class="bt"><a href=../login.html class="log">Log in</a></button>
             <button class="bt"></a>Sign up</button>
         </ul>
     </nav>
 
-    <form class="container">
-        <!--Sign up Image-->
-        <div align="center"><img src="./image/add-user.png" class="img" /></div>
-        <!--Signup Name -->
-        <div align="center" class="lgn">Sign up</div>
-        <label class="lbl"> Name :</label>
-        <input type="text" placeholder="Enter your FullName" class="box" />
-        <label class="lbl">Email :</label>
-        <input type="Email" placeholder="E-mail" class="box" />
-        <label class="lbl">Password :</label>
-        <input type="password" placeholder="Password" class="box" />
-        <label class="lbl">Confirm password :</label>
-        <input type="password" placeholder="Confirm Password" class="box" />
-        <span class="terms"><input type="checkbox" class="chk" />Accept terms and conditions.<a href="" class="rp">Read
-                terms and conditions</a></span>
-        <button class="box sgn bg-color">Sign up</button>
-        <span class="terms pos">Already have an account ?<a href="../login.html" class="rp">Login</a></span>
-    </form>
+    <div class="l1">
+        <div class="login">
+            <img src="../images/loginimg.png" style="height: 70px; margin-left: 700px; margin-top: 50px;"/><br>
+            <b style="font-size: 40px; font-family:'monospace'; margin-left:670px;">Sign Up</b><br>
+            <div class="form-box">
+            <div class="login-form">
+            <form>
+                <label class="lbl">Name
+                </label>
+                <input type="text" class="name" placeholder="Enter your name" required><br>
+                <label class="lbl"> Email
+                <span>*</span>
+               </label>
+               <input type="email" class="email" placeholder="Enter Email" required><br>
+               <label class="lbl"> Password
+                <span>*</span>
+               </label>
+               <input type="password" class="pass" placeholder="Enter Password" required><br>
+               <label class="lbl">Confirm Password
+                 <span>*</span>
+               </label>
+               <input type="password" class="pass" placeholder="Enter Password" required><br><br>
+               <span class="terms"><input type="checkbox" class="chk" />Accept terms and conditions.<a href="" class="rp">
+                <br><br>Read terms and conditions</a></span>
+            <button class="btnbox"><a class="signup" href="../products.html">Sign up</a></button><br><br>
+            <span class="terms pos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Already have an account ? <br><a class="lg"href="../login.html">Login</a></span>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

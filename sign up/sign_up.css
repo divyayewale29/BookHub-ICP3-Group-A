@@ -1,102 +1,57 @@
-body {
-    background-image: url(./image/background\ \(2\).jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px;
-}
-
-.container {
-    background-color: bisque;
-    margin-right: auto;
-    margin-left: auto;
-    width: 450px;
-    height: 900px;
-    opacity: 60%;
-    border-radius: 10px;
-    float: center;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    border: 0.5px solid black;
-}
-
-.img {
-    height: 69px;
-    padding-top: 10px;
-
-
-}
-
-/*Email label*/
-.lbl {
-    font-size: 20px;
-    padding: 10px;
-    display: block;
-    margin-bottom: 8px;
-    font-weight: lighter;
-    font-family: georgia;
-
-}
-
-/*Input Container */
-.box {
-    height: 49px;
-    width: 80%;
-    margin-left: 25px;
-    font-size: 16px;
-    border: solid 1px black;
-    opacity: 100%;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-bottom: 24px;
-    font-family: georgia;
-}
-
-.box:hover {
-    box-shadow: 0px 0px 4.5px 3px #808080;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.lgn {
-    font-size: 50px;
-    padding-top: 8px;
-    margin-bottom: 9px;
-    font-weight: bold;
-    text-shadow: 6.5px 5.5px #ccc;
-    display: block;
-    font-family: georgia;
-
-}
-
-
-.box {
-    height: 49px;
-    width: 80%;
-    margin-left: 25px;
-    font-size: 16px;
-    border: solid 1px black;
-    opacity: 100%;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin-bottom: 24px;
-    font-family: georgia;
+.l1{
     
-}
-.bg-color{
-    background-color: orangered;
-}
-
-.box:hover {
-    box-shadow: 0px 0px 4.5px 3px #808080;
-    text-decoration: none;
-    transition: 0.5s;
+    height: 800px;
+    border-radius: 25px;
 
 }
 
-.sgn {
-    cursor: pointer;
+.form-box{
+    background-image: url('../images/loginbg.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-right: 400px;
+    margin-left: 450px;
+    margin-top:50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-size: 1050px;
+
 }
+.login-form{
+    display: inline-block;
+    padding: 25px;
+    margin-left: 50px;
+}
+label{
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.name{
+    height: 30px;
+    width:300px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.email{
+    height: 30px;
+    width:300px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.pass{
+    height: 30px;
+    width:300px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
 
 .terms {
     display: block;
@@ -105,120 +60,139 @@ body {
     padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 24px;
+    
 
 }
-
+.rp{
+    font-size: 15px;
+}
 .chk {
     cursor: pointer;
 }
-
-.pos {
-    padding-left: 70px;
+.box {
+    height: 49px;
+    width: 80%;
+    margin-left: 70px;
+    font-size: 16px;
+    border: solid 1px black;
+    opacity: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    font-family: georgia;
 }
 
-@media screen and (min-width:0px) and (max-width) {
-    body {
-        background-image: url(./image/background\ \(2\).jpg);
-        background-position: center;
+.box:hover {
+    box-shadow: 0px 0px 4.5px 3px #808080;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.sgn {
+    cursor: pointer;
+}
+.bg-color{
+    background-color: orangered;
+}
+
+.lg{
+    margin-left: 150px;
+    
+}
+.signup{
+    color: black;
+ 
+}
+.btnbox{
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+    background-color:  orangered;
+    color: white ;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.btnbox:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    background-color: whitesmoke;
+}
+.lbl {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 8px;
+    font-family: georgia;
+    color: black;
+
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    .l1{
+    
+        height: 800px;
+        border-radius: 25px;
+    }
+
+    .l1{
+    
+        height: 800px;
+        border-radius: 25px;
+    }
+    
+    .form-box{
+        background-image: url('../images/loginbg.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        height: 700px;
+        margin-right: 400px;
+        margin-left: 450px;
+        margin-top:50px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background-size: 1050px;
+    
+    }
+    .login-form{
+        display: inline-block;
+        padding: 25px;
+        margin-left: 50px;
+    }
+    label{
+        margin-left: 50px;
         padding: 10px;
+        margin-top: 20px;
     }
-
-    .container {
-        background-color: bisque;
-        margin-right: auto;
-        margin-left: auto;
-        width: 400px;
-        height: 1000px;
-        opacity: 60%;
-        border-radius: 10px;
-        float: center;
-        margin-bottom: 10px;
-        margin-top: 40px;
-        border: 0.5px solid black;
-    }
-
-    .img {
-        height: 69px;
-        padding-top: 7px;
-
-
-    }
-
-    /*Email label*/
-    .lbl {
+    .name{
+        height: 30px;
+        width:300px;
+        margin-left: 50px;
         font-size: 20px;
-        padding: 10px;
-        display: block;
-        margin-bottom: 8px;
-        font-weight: lighter;
-        font-family: cursive;
-
-    }
-
-    /*Input Container */
-    .box {
-        height: 49px;
-        width: 80%;
-        margin-left: 25px;
-        font-size: 16px;
-        border: solid 1px black;
-        opacity: 100%;
-        font-weight: bolder;
         border-radius: 10px;
-        margin-bottom: 24px;
-        font-family: monospace;
+        padding: 4px;
     }
-
-    .box:hover {
-        box-shadow: 0px 0px 4.5px 3px #808080;
-        text-decoration: none;
-        transition: 0.5s;
-    }
-
-    .lgn {
-        font-size: 50px;
-        padding-top: 8px;
-        margin-bottom: 9px;
-        font-weight: bold;
-        text-shadow: 6.5px 5.5px #ff0000;
-        display: block;
-        font-family: Roboto', sans-serif;
-
-    }
-
-    .lgn:hover {
-        color: #ff0000;
-        text-shadow: 6.5px 5.5px #808080;
-        transition: 0.5s;
-
-    }
-
-    .box {
-        height: 49px;
-        width: 80%;
-        margin-left: 25px;
-        font-size: 16px;
-        border: solid 1px black;
-        opacity: 100%;
-        font-weight: bolder;
+    .email{
+        height: 30px;
+        width:300px;
+        margin-left: 50px;
+        font-size: 20px;
         border-radius: 10px;
-        margin-bottom: 24px;
-        font-family: monospace;
+        padding: 4px;
     }
-
-    .box:hover {
-        box-shadow: 0px 0px 4.5px 3px #808080;
-        text-decoration: none;
-        transition: 0.5s;
-
+    .pass{
+        height: 30px;
+        width:300px;
+        margin-left: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 4px;
     }
-
-    .sgn {
-        cursor: pointer;
-    }
-
+    
+    
     .terms {
         display: block;
         font-weight: bold;
@@ -226,17 +200,79 @@ body {
         padding-left: 40px;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 24px;
-
+        
+    
     }
-
+    .rp{
+        font-size: 15px;
+    }
     .chk {
         cursor: pointer;
     }
-
-    .pos {
-        padding-left: 70px;
+    .box {
+        height: 49px;
+        width: 80%;
+        margin-left: 40px;
+        font-size: 16px;
+        border: solid 1px black;
+        opacity: 100%;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-bottom: 24px;
+        font-family: georgia;
+    }
+    
+    .box:hover {
+        box-shadow: 0px 0px 4.5px 3px #808080;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .sgn {
+        cursor: pointer;
+    }
+    .bg-color{
+        background-color: orangered;
+    }
+    
+    .lg{
+        margin-left: 70px;
+        
+    }
+    .signup{
+        color: black;
+     
+    }
+    .btnbox{
+        border-radius: 20px;
+        height: 50px;
+        width: 150px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 120px;
+        background-color:  orangered;
+        color: white ;
+        box-shadow: 1px 1px 1px 1px black;
+    }
+    .btnbox:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        color: black;
+        background-color: whitesmoke;
+    }
+    .lbl {
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-family: georgia;
+        color: black;
+    
     }
 }
+
+
 
 .navbar {
     display: flex;
