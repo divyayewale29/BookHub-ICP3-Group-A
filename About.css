@@ -1,0 +1,249 @@
+.container{
+    min-height:1380px;
+    min-width:100wh;
+    margin:7px;
+    box-shadow: 5px 5px 5px 2px gray;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.card-1{
+    height:550px;
+    width:390px;
+    border:1px solid black;
+    border-radius:20px;
+    margin-left:18px;
+    margin-top: 80px;
+    padding:10px;
+    background-color: rgb(170, 168, 168);
+   
+    box-shadow:5px 5px 5px 2px gray;
+}
+.card-1:hover{
+   
+    height:555px;
+    width:405px;
+}
+.sub-container{
+    display: flex;
+    
+}
+.sub-in-container{
+    display: flex;
+   justify-content:space-around;
+   
+}
+
+.img-1{
+    height:170px;
+    width: 145px;
+    border: 1px solid black;
+    border-radius:20px;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.img-1:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 5px 2px gray;
+    height:180px;
+    width: 150px;
+
+}
+.media-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    border:1px solid rgb(119, 118, 118);
+}
+.media-img:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 5px 2px gray;
+    height: 40px;
+    width: 40px;
+}
+.media-img-1{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+    border:1px solid rgb(119, 118, 118);
+}
+.media-img-1:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 5px 2px gray;
+    height: 40px;
+    width: 40px;
+}
+.media-img-0{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 25x;
+    border:1px solid rgb(119, 118, 118);
+    
+}
+.media-img-0:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 5px 2px gray;
+    height: 40px;
+    width: 40px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+
+}
+b{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue ;
+    font-family: Georgia;
+}
+b:hover{
+    color:rgb(127, 12, 131);
+}
+
+h1{
+    margin-left: 80px;
+    color:rgb(114, 11, 54);
+    font-family:  Georgia;
+}
+h1:hover{
+    color: whitesmoke;
+}
+.h1-{
+    margin-left: 60px;
+    color:rgb(114, 11, 54);
+    font-family:  Georgia;
+}
+.h1-:hover{
+    color: whitesmoke;
+}
+
+.heading{
+    font-size: 50px;
+    color: blue;
+    font-family:Georgia;
+    margin-left: 400px;
+   }
+  
+
+
+
+
+
+.f1{
+    max-width:1170px;
+    margin: auto;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(15, 7, 45);
+    padding: 20px;
+    height: 300px;
+}
+.footer-col{
+    width: 20%;
+    padding: 5px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.footer-col ul li a{
+    font-size: 20px;
+    display: block;
+    
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+.f-img{
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
+}
+.f-img:hover{
+    cursor: pointer;
+}
+.about-heading{
+    min-height: 600px;
+    min-width: 100wh;
+    border:1px solid black;
+    border-radius: 20px;
+    margin:7px;
+    padding: 0;
+    background-color:whitesmoke;
+    background-size:contain;
+    background-repeat:repeat;
+   background-position: center center;
+   box-shadow: 5px 5px 5px 2px gray;
+   display:flex;
+   flex-direction: row;
+}
+.about-heading:hover{
+   width: 98%;
+   margin-left:20px;
+}
+
+
+.icon-1{
+    font-size: 35px;
+    color: rgb(104, 31, 31);
+}
+
+.head-shadow{
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 3px 2px gray;
+    min-height: 60px;
+    min-width: 100wh;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 20px;
+   
+}
+
+.about-img{
+    height:400px;
+    margin-top: 100px;
+    width:500px;
+    border: 1px solid black;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 3px 3px rgb(31, 92, 94);
+    margin-left:50px;
+}
+
+.about-img:hover{
+    height:410px;
+    width:510px;
+}
+
+
+
+
+
+
+
+
