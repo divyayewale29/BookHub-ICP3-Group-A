@@ -1,4 +1,90 @@
+<<<<<<< HEAD
+body {
+    background-image: url(./image/background\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.container {
+    background-color:  rgb(206, 204, 204);
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    height: 900px;
+    opacity: 60%;
+    border-radius: 10px;
+    float: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border: 0.5px solid black;
+}
+
+.img {
+    height: 69px;
+    padding-top: 10px;
+
+
+}
+
+/*Email label*/
+.lbl {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    font-family: georgia;
+
+}
+
+/*Input Container */
+.box {
+    height: 49px;
+    width: 80%;
+    margin-left: 25px;
+    font-size: 16px;
+    border: solid 1px black;
+    opacity: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    font-family: georgia;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 4.5px 3px #808080;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.lgn {
+    font-size: 50px;
+    padding-top: 8px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    text-shadow: 6.5px 5.5px #ccc;
+    display: block;
+    font-family: georgia;
+
+}
+
+
+.box {
+    height: 49px;
+    width: 80%;
+    margin-left: 25px;
+    font-size: 16px;
+    border: solid 1px black;
+    opacity: 100%;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    font-family: georgia;
+=======
 .l1{
+>>>>>>> f9d3712b734c44d1379ac334896ac8d138943511
     
     height: 800px;
     border-radius: 25px;
