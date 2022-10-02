@@ -401,10 +401,19 @@ label{
     display: flex;
 
 }   
+.listtype{
+    border-radius: 10px;
+    background-color: rgb(241, 169, 117);
+    padding: 10px;
+    
+}
+.listtype:hover{
+    box-shadow: 1px 2px 1px 2px #ff6b08;
+}
 .bt1{
     border-radius: 10px;
     margin-left: 40px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     color: white;
     background-color: green;

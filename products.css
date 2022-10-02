@@ -66,11 +66,11 @@
   margin-top: 20px;
   margin-left:45px;
   border-radius: 15px;
-  box-shadow:5px 5px 5px 2px whitesmoke;
+  box-shadow:1px 2px 5px 2px whitesmoke;
  }
  .heading{
    font-size:23px;
-   color: blue;
+   color: rgb(182, 13, 13);
    margin-left: 34px;
    margin-top: 10px;
    

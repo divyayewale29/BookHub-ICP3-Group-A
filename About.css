@@ -12,7 +12,7 @@
     width:390px;
     border:1px solid black;
     border-radius:20px;
-    margin-left:18px;
+    margin-left:50px;
     margin-top: 80px;
     padding:10px;
     background-color: rgb(170, 168, 168);
@@ -107,6 +107,7 @@ b{
     font-weight: bold;
     color: blue ;
     font-family: Georgia;
+    margin-left: 60px;
 }
 b:hover{
     color:rgb(127, 12, 131);
@@ -119,6 +120,7 @@ h1{
 }
 h1:hover{
     color: whitesmoke;
+    cursor: pointer;
 }
 .h1-{
     margin-left: 60px;
@@ -241,8 +243,22 @@ ul{
 }
 
 
+.footer-col ul li a{
+    font-size: 20px;
+    display: block;
+    
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+    transition: 0.5s;
+    color: orange;
+}
 
-
+.a1{
+    color: white;
+   text-decoration: none;
+}
 
 
 
